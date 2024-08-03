@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Navbar design*/
+
+body{
+    background: rgb(4,1,46);
+    background: radial-gradient(circle, rgba(4,1,46,1) 19%, rgba(0,212,255,1) 42%, rgba(30,30,185,1) 89%);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.links{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    transition: ease-in-out 0.6s;
+}
+
+
+#Nav-button{
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    background-color: hsl(240, 100%, 50%);
+    color: rgb(255, 255, 255);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#Nav-button:hover{
+    background-color: hsl(240, 100%, 70%);
+}
+
+/* Main Design*/
+
+.main-container{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Btn{
+    font-family: 'Quicksand', sans-serif;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(240, 100%, 50%);
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    margin: 10px;
+}
+
+.Btn:hover{
+    background-color: hsl(240, 100%, 30%);
+}
+
+.image-container{
+    display: inherit;
+    flex-direction: inherit;
+}
+
+/*Skills Container*/
+
+.skill-container{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+#reactpng{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+/*About Section Design*/
+
+.about-container{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* Contacts Section*/
+
+.contact-container{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.contactLinks{
+    color: aliceblue;
+}
+
+/*Copyright*/
+
+.copyright{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding: 100px;
+}
+
+.copyright-link{
+    color: white;
+}
