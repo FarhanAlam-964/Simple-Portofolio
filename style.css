@@ -7,6 +7,11 @@ body{
     background: radial-gradient(circle, rgba(4,1,46,1) 19%, rgba(0,212,255,1) 42%, rgba(30,30,185,1) 89%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 nav{
     display: flex;
     flex-direction: row;
@@ -31,8 +36,8 @@ a{
 
 
 #Nav-button{
-    border-radius: 5px;
-    padding: 12px;
+    border-radius: 10px;
+    padding: 15px;
     border: none;
     background-color: hsl(240, 100%, 50%);
     color: rgb(255, 255, 255);
