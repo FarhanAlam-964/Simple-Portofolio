@@ -4,92 +4,97 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farhan's Portofolio</title>
+    <title>Farhan's Portfolio</title>
 </head>
 <body>
-    
+    <!--Navigation Bar-->
     <nav>
         <div class="nav-logo">
             <label>Farhan</label>
         </div>
-            <a href="#" class="links" id="home-link"><ul>Home</ul></a>
-            <a href="#" class="links" id="skill-link"><ul>Skills</ul></a>
-            <a href="#" class="links"><ul>About</ul></a>
-            <a href="#" class="links"><ul>Contact</ul></a>
-            <button id="Nav-button">Hire Me</button>
+        <a href="#home-link" class="links">Home</a>
+        <a href="#skill-link" class="links">Skills</a>
+        <a href="#about" class="links">About</a>
+        <a href="#contact" class="links">Contact</a>
+        <button id="Nav-button">Hire Me</button>
     </nav>
 
-    <div class="main-container">
+    <!--Main Container-->
+    <div id="home-link" class="main-container">
         <h1>Hey, its Farhan!</h1>
         <p>
-            Iam a Full stack Web Developer. Iam from Dhaka Bangladesh. <br>
+            I am a Full Stack Web Developer. I am from Dhaka Bangladesh. <br>
             My main languages are Python, JavaScript, C, C++. <br>
-            To konw about my skills go to the skills tab in the navbar.
+            To know about my skills, go to the skills tab in the navbar.
         </p>
         <button class="Btn">Hire Me</button>
         <button class="Btn">Contact Me</button>
-
         <div class="image-container">
-            <img src="header.png">
-         </div>
+            <img src="header.png" alt="Header Image">
+        </div>
     </div>
-    
 
-    <div class="skill-container" id="skills">
+    <!--Skill Container-->    
+    <div id="skill-link" class="skill-container">
         <h1>Skills</h1>
         <p>
-            My known languages are :
-            <li>Python - (Django , Flask)</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-            <li>MongoDB</li>
-            <li>JavaScript - (React JS , Node JS)</li>
+            My known languages are:
+            <ul>
+                <li>Python - (Django, Flask)</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>JavaScript - (React JS, Node JS)</li>
+            </ul>
         </p>
-        <h1>Front-End Development :</h1>
-        <p>for Front-End Development I have learned the HTML , CSS , React JS. <br>
-           I have planned some big projects Like an Amazon Clone , a Weather app using an API , <br>
-           2 - 3 more Portofolio's and a trading view site.
-        </p>
-        <h1>Back-End Development :</h1>
+        <h1>Front-End Development:</h1>
         <p>
-            for Back-End Development I have learned Django , Node JS and Databases like SQL and MongoDB. <br>
-            For Projects I have planned to make a Crypto price web app using an API. <br>
-            Btw to learn SQL I have used MySQL from Oracle.
+            For Front-End Development, I have learned HTML, CSS, React JS. <br>
+            I have planned some big projects like an Amazon Clone, a Weather app using an API, <br>
+            2-3 more portfolios, and a trading view site.
         </p>
-        <img src="react.png" id="reactpng">
+        <h1>Back-End Development:</h1>
+        <p>
+            For Back-End Development, I have learned Django, Node JS, and Databases like SQL and MongoDB. <br>
+            For projects, I have planned to make a Crypto price web app using an API. <br>
+            By the way, to learn SQL, I have used MySQL from Oracle.
+        </p>
+        <img src="react.png" id="reactpng" alt="React Image">
     </div>
 
-    <div class="about-container">
-       <h1>About</h1>
-       <p>My Name is Farhan Alam Alif. Iam from Dhamrai, Dhaka, Bangladesh. <br>
-        My dream is to become a Full-Stack Web Developer. Thats why all necessery things <br>
-        for Web Development. Sir Anisul Islam was my inspiration to start learning Web Development. <br>
-        I have learned a lot of things about Web Development like React , Node js, Python, JavaScript, <br>
-        HTML, CSS, SQL, MongoDB etc. <br><br>
-        The Projects I have made are : <br><br>
-        1.Trading View Widget. <br> <br>
-        2.Python Calculator. <br><br>
-        3.JavaScript Calculator. <br><br>
-        4.Too many Portofolios <br><br>
-        5.Too many Login/Sign up pages <br> <br>
-        I also Plan on making an Amazon Clone , a Weather app , Something with Databases etc
-       </p>
+    <!--About Container-->
+    <div id="about" class="about-container">
+        <h1>About</h1>
+        <p>
+            My name is Farhan Alam Alif. I am from Dhamrai, Dhaka, Bangladesh. <br>
+            My dream is to become a Full-Stack Web Developer. That's why I have learned all necessary things <br>
+            for Web Development. Sir Anisul Islam was my inspiration to start learning Web Development. <br>
+            I have learned a lot about Web Development, including React, Node.js, Python, JavaScript, <br>
+            HTML, CSS, SQL, MongoDB, etc. <br><br>
+            The projects I have made are: <br><br>
+            1. Trading View Widget. <br><br>
+            2. Python Calculator. <br><br>
+            3. JavaScript Calculator. <br><br>
+            4. Too many portfolios. <br><br>
+            5. Too many login/sign-up pages. <br><br>
+            I also plan on making an Amazon Clone, a Weather app, and something with Databases, etc.
+        </p>
     </div>
 
-    <div class="contact-container">
+    <!--Contacts-->
+    <div id="contact" class="contact-container">
         <h1>Contacts</h1>
         <a href="#" class="contactLinks">Twitter - FarhanAlam964</a>
-        <a href="#" class="contactLinks">Linkedin - Farhan Alam</a>
-        <a href="#" class="contact-container">Facebook - Farhan Alam</a>
-        <a href="#" class="contact-container">GitHub - FarhanAlam-964</a>
+        <a href="#" class="contactLinks">LinkedIn - Farhan Alam</a>
+        <a href="#" class="contactLinks">Facebook - Farhan Alam</a>
+        <a href="#" class="contactLinks">GitHub - FarhanAlam-964</a>
     </div>
 
+    <!--Copyright-->
     <div class="copyright">
         <a href="#" class="copyright-link"><p>Copyright 2024 | All Rights Reserved</p></a>
     </div>
-
-
 
     <script src="main.js"></script>
 </body>
